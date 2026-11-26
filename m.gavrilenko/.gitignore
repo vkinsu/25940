@@ -1,28 +1,9 @@
-# Бинарники
-task1/task1
-task2/task2
-task3/task3
-task4/task4
-task5/task5
-task6/task6
-task7/task7
-
-# Объектные файлы и прочее
+task*/*
+!task*/*.c
+!task*/*.h
+!task*/*.sh
+!task*/*.txt
+!task*/*.md
 *.o
-*.obj
-*.out
-*.exe
+*.log
 core
-core.*
-
-# Тестовые выходные файлы
-out*.txt
-n*.txt
-
-# Редакторы
-.vscode/
-.idea/
-*.swp
-*~
-.DS_Store
-Thumbs.db
